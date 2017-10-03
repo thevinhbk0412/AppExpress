@@ -10,17 +10,19 @@ git push
 
 git master ### git develop
 
-//tao nhanh develop
-git branch develop
+//tao nhanh ten la develop
+git branch develop 
 //xem nhanh
 git branch
 
 //chon nhanh develop de commit
 git checkout develop
+//quay lai
+git checkout master 
 git push -u origin develop
 git add -A
 git status 
-git commmit -m "initiall Express scaffoding"
+git commit -m "initiall Express scaffoding"
 git push
 
 #############monoogse
@@ -37,3 +39,4 @@ npm info "eslint-config-airbnb" peerDependencies
 react babel webpack
 yarn add react react-dom webpack babel-loader babel-core babel-jest babel-preset-react sass-loader node-sass
 yarn add babel-preset-es2017
+.babelrc
